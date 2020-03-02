@@ -1,7 +1,7 @@
 let fs = require('fs');
 let sat = require('./sat.js');
-let test1 = require('./75approxi.js');
-let test2 = require('./50approxi.js');
+let test1 = require('./w-approxi.js');
+let test2 = require('./r-approxi.js');
 
 let Parser = function() {
 
