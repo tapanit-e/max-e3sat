@@ -10,15 +10,22 @@ Contains also 7/8 approximation algorithms for MAX E3SAT for benchmark testing.
 
 __outperforms__ with high probability the SOTA approximation algorithms for MAX E3SAT...
 
+### Installation
+
+```
+$npm i fs
+$npm i command-line-args
+$npm i command-line-usage
+```
 ### Use
 
 ```
-$ node main.js [--iw] path/to/dimacs1 [path/to/dimacs2...]
+$node main.js [-w] --src path/to/dimacs1 [--src path/to/dimacs2...] --alpha ]0, x] --gamma ]0, y] --timeout seconds --runs [1, z]
 ```
 
 ## Authors
 
-* **Tapani Toivonen** - *Initial work* - [web](http://tapanit.me/)
+* **Tapani Toivonen @UEF school of computing** - *Initial work* - [web](http://tapanit.me/)
 
 ## License
 
