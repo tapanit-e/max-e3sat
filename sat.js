@@ -18,8 +18,6 @@
 
     Sat.prototype.fit = function() {
 
-       // const ALPHA = 0.99;
-
         let lits = new Set();
 
         for (let i = 0; i < this.instance.length; i++)
@@ -84,7 +82,7 @@
            
             max = countBefore;
            
-            console.log('o ' + (this.instance.length - max));
+            console.log('initial: ' + (this.instance.length - max));
            
             if (max === this.instance.length)
   
